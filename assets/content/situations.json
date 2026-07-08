@@ -1,0 +1,2430 @@
+{
+  "situations": [
+    {
+      "id": "greet",
+      "title": "No quiere saludar",
+      "icon": "hand-waving",
+      "levels": [
+        {
+          "label": "Estar y mirar",
+          "steps": [
+            {
+              "goal": "Sacar la exigencia",
+              "variants": [
+                "Dile a {n}: 'hoy no hace falta saludar. Solo entramos juntos'.",
+                "Entra con {n} de la mano. Tú saludas, él mira.",
+                "Dile: 'quédate a mi lado y mira quién está'."
+              ],
+              "fallbacks": [
+                "Quédense en la puerta un momento. Ya entrarán después.",
+                "Déjalo pararse detrás de ti. Tu cuerpo es su refugio."
+              ]
+            },
+            {
+              "goal": "Poner nombre a lo que ve",
+              "variants": [
+                "Cuéntale bajito quién es cada uno: 'ese es Tomi, esa es la abuela'.",
+                "Dile: 'mira cómo saludo yo. Tú solo mira'.",
+                "Señálale a alguien conocido: 'mira quién vino'."
+              ],
+              "fallbacks": [
+                "No agregues nada. Quédate cerca y espera.",
+                "Búscale un rincón tranquilo desde donde mirar."
+              ]
+            },
+            {
+              "goal": "Cerrar en positivo",
+              "variants": [
+                "Antes de irse, dile: 'hoy entraste y miraste. Eso ya es empezar'.",
+                "Pregúntale: '¿a quién viste hoy?'. Que lo nombre.",
+                "Dile: 'la próxima quizá saludamos con la mano. Hoy ya está'."
+              ],
+              "fallbacks": [
+                "Sin resumen ni sermón. Un abrazo y a otra cosa.",
+                "Dile: 'estuviste. Con eso alcanza por hoy'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Un gesto, un hola",
+          "steps": [
+            {
+              "goal": "Bajar la presión",
+              "variants": [
+                "Ponte a su altura. Dile a {n}: 'solo mira 10 segundos'.",
+                "Dile a {n}: 'no hace falta hablar. Quédate a mi lado'.",
+                "Cuenta bajito con {n}: 'miramos hasta 10 y listo'.",
+                "Pregúntale bajito: '¿saludamos con la mano o con la voz?'. Que elija.",
+                "Dile: 'primero miramos juntos quién está'. Nada más."
+              ],
+              "fallbacks": [
+                "Aléjate un paso con {n}. Dile: 'mira desde acá'.",
+                "Salgan un momento a un lugar tranquilo. Vuelvan en 2 minutos.",
+                "Déjalo pararse detrás de ti. Dile: 'avísame cuando estés listo'."
+              ]
+            },
+            {
+              "goal": "Modelar el saludo",
+              "variants": [
+                "Saluda tú primero. Que {n} te vea hacerlo.",
+                "Saluda tú y nómbralo: 'vinimos con {n}'. Sin pedirle nada.",
+                "Dile al oído: 'mira cómo saludo yo. Después me cuentas'.",
+                "Saluda exagerado, con humor. Que {n} se ría mirándote."
+              ],
+              "fallbacks": [
+                "Tómale la mano. Dile: 'saludamos juntos'.",
+                "Levanta su mano con la tuya, despacio. Un gesto alcanza.",
+                "Dile: 'hoy saludo yo por los dos. Mañana pruebas tú'."
+              ]
+            },
+            {
+              "goal": "Su turno, con la vara baja",
+              "variants": [
+                "Dile: 'ahora tú. Un hola bajito alcanza'.",
+                "Dile: 'di hola mirando los zapatos si quieres. Vale igual'.",
+                "Pregúntale: '¿lo dices tú o lo decimos juntos?'.",
+                "Dile: 'un hola cortito y ya está. Yo estoy acá'."
+              ],
+              "fallbacks": [
+                "Dile: 'con la mano alcanza. Sin palabras'.",
+                "Dile: 'una sonrisa también es saludar'.",
+                "Cierra tú: 'hoy miró y estuvo cerca. La próxima, la mano'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Su voz, solo",
+          "steps": [
+            {
+              "goal": "Prepararlo antes",
+              "variants": [
+                "Antes de entrar, dile a {n}: 'hoy saludas tú primero. Yo no digo nada'.",
+                "Acuerda con {n} una señal: te toca el brazo si necesita ayuda.",
+                "Pregúntale a {n}: '¿a quién vas a saludar hoy? Elige uno'."
+              ],
+              "fallbacks": [
+                "Baja a la meta de ayer: 'saludamos juntos y listo'.",
+                "Dile: 'mira tú primero. Cuando quieras, saludas'."
+              ]
+            },
+            {
+              "goal": "Dejarle el turno",
+              "variants": [
+                "Entra medio paso detrás de {n}. El saludo es suyo.",
+                "No mires a {n} cuando llegue el momento. Presión afuera.",
+                "Si alguien saluda primero, espera: la respuesta es de {n}."
+              ],
+              "fallbacks": [
+                "Si se traba, acércate y saluda tú. Sin comentarios.",
+                "Ponte a su lado y espera 5 segundos más."
+              ]
+            },
+            {
+              "goal": "Nombrar la autonomía",
+              "variants": [
+                "Si saludó solo, después dile: 'eso lo hiciste tú. Nadie te ayudó'.",
+                "Pregúntale después: '¿viste la cara del otro cuando saludaste?'.",
+                "No exageres el festejo. Un guiño alcanza: ya es de él."
+              ],
+              "fallbacks": [
+                "Si no salió, cierra sin drama: 'mañana probamos de nuevo'.",
+                "Dile: 'la mitad ya la tienes. Falta poquito'."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "title": "Tiene miedo",
+      "icon": "shield-check",
+      "levels": [
+        {
+          "label": "Calma primero",
+          "steps": [
+            {
+              "goal": "Cuerpo antes que palabras",
+              "variants": [
+                "Agáchate y abrázalo. Todavía no expliques nada.",
+                "Sácalo del lugar sin apuro. La calma primero.",
+                "Ponlo de espaldas a lo que asusta. Tú de frente."
+              ],
+              "fallbacks": [
+                "Cárgalo. En brazos el miedo baja más rápido.",
+                "Caminen unos pasos juntos, lejos del ruido."
+              ]
+            },
+            {
+              "goal": "Respirar y nombrar",
+              "variants": [
+                "Respira hondo y lento, exagerado. Que te copie sin pedírselo.",
+                "Dile: 'estás asustado. Estoy acá. Ya pasa'.",
+                "Cuenta con {n} hasta 5, con los dedos."
+              ],
+              "fallbacks": [
+                "Ponle la mano en el pecho: 'siente cómo baja'.",
+                "Cántale bajito algo que conozca. Dos líneas alcanzan."
+              ]
+            },
+            {
+              "goal": "Cerrar sin forzar",
+              "variants": [
+                "No lo obligues a volver. Dile: 'cuando estés listo, me avisas'.",
+                "Dile: 'hoy nos asustamos y nos calmamos. Eso es lo importante'.",
+                "Pregúntale: '¿nos quedamos un rato más o nos vamos?'. Que elija."
+              ],
+              "fallbacks": [
+                "Váyanse en buenos términos: 'lo miramos de lejos mañana'.",
+                "Cierra corto: 'ya pasó. Me gustó cómo te calmaste'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Mirar acompañado",
+          "steps": [
+            {
+              "goal": "Presencia sin palabras",
+              "variants": [
+                "Agáchate frente a {n}. No hables todavía.",
+                "Acércate despacio y quédate al lado de {n}. En silencio.",
+                "Ofrécele la mano sin decir nada. Que la tome si quiere.",
+                "Ponte entre {n} y lo que da miedo. Que te vea firme."
+              ],
+              "fallbacks": [
+                "Lleva a {n} a un lugar más tranquilo. Sin apuro.",
+                "Cárgalo o abrázalo. Primero calma, después palabras.",
+                "Cuenta bajito hasta 10 con {n}. Nada más."
+              ]
+            },
+            {
+              "goal": "Regular juntos",
+              "variants": [
+                "Dile: 'estoy acá. Respira conmigo, 3 veces'.",
+                "Dile: 'esto asusta un poco. Yo me quedo contigo'.",
+                "Dile: 'pon tu mano en mi barriga. Respiramos juntos'.",
+                "Ponle nombre: 'es un perro y hace ruido. Ya pasa'."
+              ],
+              "fallbacks": [
+                "Ponle una mano en la espalda. Respira tú, fuerte.",
+                "Abrázalo de costado y respira lento. Que te copie el cuerpo.",
+                "Dile: 'aprieta mi mano fuerte. Ahora suelta despacio'."
+              ]
+            },
+            {
+              "goal": "Volver a mirar acompañado",
+              "variants": [
+                "Dile: 'mira de nuevo. Yo no me muevo de acá'.",
+                "Dile: 'miramos juntos desde acá. Un pasito más si quieres'.",
+                "Pregúntale: '¿desde dónde lo miras tranquilo?'. Respeta su lugar.",
+                "Dile: 'tú avisas cuándo nos acercamos. Tú mandas'."
+              ],
+              "fallbacks": [
+                "Dile: 'hoy miramos juntos. Mañana un poco más'.",
+                "Cierra el tema: 'ya está por hoy. Estuviste cerca y eso vale'.",
+                "Dile: 'lo saludamos de lejos y nos vamos'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Un paso él solo",
+          "steps": [
+            {
+              "goal": "Plan antes del miedo",
+              "variants": [
+                "Armen un plan: 'te acercas hasta donde tú digas. Yo me quedo acá'.",
+                "Pregúntale: '¿hasta dónde llegas hoy? Marca el punto'.",
+                "Dile: 'tú mandas: para, sigo o vuelve. Yo obedezco'."
+              ],
+              "fallbacks": [
+                "Acorta el paso: 'la mitad de lo que dijiste alcanza'.",
+                "Vuelve al nivel de ayer: miren juntos desde acá."
+              ]
+            },
+            {
+              "goal": "Que avance solo",
+              "variants": [
+                "Quédate quieto donde estás. Que {n} dé el paso sin tu mano.",
+                "No hables mientras avanza. Tu silencio le dice: confío.",
+                "Si te mira, asiente. Nada más."
+              ],
+              "fallbacks": [
+                "Acompáñalo hasta la mitad y suelta: 'el resto es tuyo'.",
+                "Dile: 'cuenta 3 y das un paso. Yo cuento contigo'."
+              ]
+            },
+            {
+              "goal": "Que lo cuente él",
+              "variants": [
+                "Pregúntale: '¿cómo lo hiciste?'. Que te explique su truco.",
+                "Dile: 'ayer no podías. Hoy sí. ¿Viste?'.",
+                "Deja que lo cuente él en casa. Es su historia."
+              ],
+              "fallbacks": [
+                "Si no llegó, valora el intento: 'llegaste más lejos que ayer'.",
+                "Cierra sin vueltas: 'mañana el mismo plan. Va a salir'."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limits",
+      "title": "No pone límites",
+      "icon": "hand",
+      "levels": [
+        {
+          "label": "Decirlo juntos",
+          "steps": [
+            {
+              "goal": "Prestarle tu voz",
+              "variants": [
+                "Ve con {n} y di tú el límite: 'no le gusta eso. Para'.",
+                "Dile al oído: 'lo decimos juntos a la cuenta de 3'.",
+                "Ponte al lado de {n}, frente al otro. Tu presencia ya es un límite."
+              ],
+              "fallbacks": [
+                "Frena la situación tú: separa, con calma.",
+                "Sácalo un momento: 'ahora respiramos, después volvemos'."
+              ]
+            },
+            {
+              "goal": "Que repita algo",
+              "variants": [
+                "Pídele que repita una palabra: 'di tú también: para'.",
+                "Dile: 'haz el gesto de alto conmigo'. Háganlo juntos.",
+                "Pregúntale: '¿qué le quieres decir? Yo te ayudo a decirlo'."
+              ],
+              "fallbacks": [
+                "Con que asienta con la cabeza alcanza por hoy.",
+                "Dilo tú de nuevo, más firme. Que escuche el tono."
+              ]
+            },
+            {
+              "goal": "Mostrarle que funcionó",
+              "variants": [
+                "Muéstraselo: 'dijimos para y paró. Las palabras funcionan'.",
+                "Dile: 'la próxima lo dices tú y yo te respaldo'.",
+                "Pregúntale: '¿viste lo que pasó cuando lo dijimos?'."
+              ],
+              "fallbacks": [
+                "Si no paró, protégelo tú y dile: 'yo te cuido. Siempre'.",
+                "Cierra: 'hoy lo dijimos juntos. Ya es bastante'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Con su voz",
+          "steps": [
+            {
+              "goal": "Darle las palabras",
+              "variants": [
+                "Dile a {n}: 'di basta, con voz fuerte'.",
+                "Dile bajito: 'di: no me gusta'. Palabra por palabra.",
+                "Dile: 'míralo a los ojos y di: para'.",
+                "Ensáyalo una vez al oído de {n}: 'basta'. Ahora en serio."
+              ],
+              "fallbacks": [
+                "Dile: 'muestra la mano así' y haz el gesto de alto.",
+                "Dile: 'ponte firme y no te muevas del lugar'.",
+                "Dilo tú primero, fuerte: 'basta'. Que escuche cómo suena."
+              ]
+            },
+            {
+              "goal": "Esperar sin rescatar",
+              "variants": [
+                "Ahora espera 5 segundos. No lo hagas por {n}.",
+                "Quédate a dos pasos, mirándolo. Sin hablar.",
+                "Cuenta hasta 5 en tu cabeza antes de ayudar.",
+                "Si te mira, asiente con la cabeza. Nada más."
+              ],
+              "fallbacks": [
+                "Acércate un paso. Que {n} sepa que estás.",
+                "Ponte a su lado, hombro con hombro. Sigue siendo su turno.",
+                "Dile bajito: 'yo estoy acá. Dilo tú'."
+              ]
+            },
+            {
+              "goal": "Nombrar el logro",
+              "variants": [
+                "Si lo dijo, dile: 'eso fue poner un límite'.",
+                "Dile: 'lo dijiste con tu voz. Así se hace'.",
+                "Dile bajito: '¿viste? Funcionó. Te escucharon'.",
+                "No digas nada delante de otros. Después, a solas: 'eso fue valiente'."
+              ],
+              "fallbacks": [
+                "Dilo tú una vez. Después: 'ahora tú'.",
+                "Marca tú el límite, firme. {n} aprende mirando.",
+                "Cierra: 'hoy lo dije yo. La próxima lo decimos juntos'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Sostenerlo solo",
+          "steps": [
+            {
+              "goal": "Confiar de lejos",
+              "variants": [
+                "Quédate lejos, donde {n} te vea. No te acerques todavía.",
+                "Antes dile: 'hoy lo resuelves tú. Yo miro desde acá'.",
+                "Si te busca con la mirada, devuélvele calma. Sin moverte."
+              ],
+              "fallbacks": [
+                "Acércate a mitad de camino. Solo presencia.",
+                "Hazle la seña acordada: 'tú puedes'."
+              ]
+            },
+            {
+              "goal": "Insistir si no alcanzó",
+              "variants": [
+                "Si no le hicieron caso, dile: 'dilo de nuevo, más fuerte'.",
+                "Dile: 'si no escuchan, te vas. Irse también es un límite'.",
+                "Recuérdale: 'primero para. Si sigue, buscas a un adulto'."
+              ],
+              "fallbacks": [
+                "Acércate y respáldalo: 'dijo que pares. Yo lo escuché'.",
+                "Intervén tú y después: 'la próxima sigue insistiendo tú'."
+              ]
+            },
+            {
+              "goal": "Nombrar el coraje",
+              "variants": [
+                "Después, a solas: 'lo sostuviste solo. Eso es carácter'.",
+                "Pregúntale: '¿cómo te sentiste al decirlo fuerte?'.",
+                "Dile: 'poner límites también cuida a los amigos'."
+              ],
+              "fallbacks": [
+                "Si no salió: 'defenderse cuesta. Mañana practicamos en casa'.",
+                "Cierra corto: 'te vi intentarlo. Estoy contigo'."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "share",
+      "title": "No comparte",
+      "icon": "users-three",
+      "levels": [
+        {
+          "label": "Prestar contigo",
+          "steps": [
+            {
+              "goal": "Guardar lo intocable",
+              "variants": [
+                "Dile a {n}: 'elige qué se guarda. Lo guardado no se toca'.",
+                "Guarda con {n} sus favoritos antes de que lleguen los otros.",
+                "Dile: 'de estos tres, uno se presta. Elige cuál'."
+              ],
+              "fallbacks": [
+                "Saca tú del medio el juguete del conflicto.",
+                "Ofrece otra cosa para compartir: plastilina, bloques, algo de a dos."
+              ]
+            },
+            {
+              "goal": "Prestar cortito, con garante",
+              "variants": [
+                "Dile: 'se lo prestas 2 minutos. Yo cuento el tiempo'.",
+                "Quédate al lado del juguete prestado. Eres el garante.",
+                "Pon un temporizador delante de {n}: 'cuando suena, vuelve'."
+              ],
+              "fallbacks": [
+                "Acorta el tiempo: 'un minuto y vuelve. Yo aviso'.",
+                "Propón jugar los tres con ese juguete. Nadie lo suelta del todo."
+              ]
+            },
+            {
+              "goal": "Cumplir la promesa",
+              "variants": [
+                "Cuando pase el tiempo, ve tú a buscarlo y entrégaselo.",
+                "Muéstraselo: 'volvió, como te prometí. Siempre vuelve'.",
+                "Dile: '¿viste? Prestar no es perder'."
+              ],
+              "fallbacks": [
+                "Si el otro no lo suelta, resuélvelo tú, sin drama, y cumple.",
+                "Cierra: 'hoy prestaste con ayuda. La próxima, un rato más largo'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Prestar y esperar",
+          "steps": [
+            {
+              "goal": "Que elija qué presta",
+              "variants": [
+                "Dile a {n}: 'elige un juguete para prestar. Uno solo'.",
+                "Dile: 'elige cuál prestas y cuál guardas'. Que mande él.",
+                "Pregúntale: '¿cuál le prestarías un ratito?'. Espera su elección.",
+                "Dile: 'los especiales se guardan. Elige uno para compartir'."
+              ],
+              "fallbacks": [
+                "Dile: 'elige uno que casi no uses'.",
+                "Ofrece tú dos opciones: '¿este o este?'.",
+                "Guarda el juguete del conflicto. Dile: 'ese hoy descansa'."
+              ]
+            },
+            {
+              "goal": "Prestar con garantía",
+              "variants": [
+                "Dile: 'es prestado. Vuelve a ti en un rato'.",
+                "Dile: 'sigues siendo el dueño. Prestar no es regalar'.",
+                "Dile: 'cuando quieras que vuelva, me avisas'.",
+                "Pon una regla clara: 'un rato cada uno. Empezó él, sigues tú'."
+              ],
+              "fallbacks": [
+                "Pon un tiempo corto: 5 minutos y vuelve.",
+                "Quédate cerca del juguete. Que {n} vea que lo cuidas.",
+                "Propón jugar los tres juntos con ese juguete."
+              ]
+            },
+            {
+              "goal": "Cerrar el ciclo: volvió",
+              "variants": [
+                "Cuando lo devuelvan, muéstraselo: volvió, como dijiste.",
+                "Dile: 'prestaste y volvió. Así funciona'.",
+                "Pregúntale: '¿viste que volvió? ¿Prestamos otro?'.",
+                "Cuéntale a alguien delante de {n}: 'hoy prestó un juguete'."
+              ],
+              "fallbacks": [
+                "Pídelo tú y devuélveselo enseguida. Que lo vea.",
+                "Vayan juntos a pedirlo: 'ya está, ¿me lo devuelves?'.",
+                "Si no vuelve, cumple tú: 'mañana lo usas primero'. Y cúmplelo."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Ofrecer él",
+          "steps": [
+            {
+              "goal": "Sembrar la idea",
+              "variants": [
+                "Antes de que lleguen, pregúntale: '¿qué le va a gustar a tu amigo?'.",
+                "Dile: 'tú eliges qué, a quién y por cuánto. Tú mandas'.",
+                "Recuérdale: 'las otras veces volvió todo. Tú ya sabes cómo es'."
+              ],
+              "fallbacks": [
+                "Vuelve al modo de ayer: tú de garante del tiempo.",
+                "Sugiere poco a poco: 'quizá este le gusta. Tú decides'."
+              ]
+            },
+            {
+              "goal": "Dejar que negocie",
+              "variants": [
+                "Si discuten turnos, no entres. Espera a que lo arreglen ellos.",
+                "Escucha de lejos. Solo entra si alguien lo pasa mal.",
+                "Si te piden arbitrar, devuélveselo: '¿ustedes qué proponen?'."
+              ],
+              "fallbacks": [
+                "Dales una estructura: 'turnos de 5. ¿Quién empieza?'.",
+                "Recuerda la regla de la casa: 'lo prestado vuelve. Siempre'."
+              ]
+            },
+            {
+              "goal": "Reflejar la generosidad",
+              "variants": [
+                "Después dile: 'vi que lo ofreciste tú. Eso hace amigos'.",
+                "Pregúntale: '¿cómo se puso tu amigo cuando le prestaste?'.",
+                "No lo anuncies delante de todos. A solas vale doble."
+              ],
+              "fallbacks": [
+                "Si no ofreció, no lo marques. Siembra para mañana: '¿qué llevamos la próxima?'.",
+                "Cierra: 'compartir se aprende. Vas bien'."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ask_help",
+      "title": "No pide ayuda",
+      "icon": "chat-circle-dots",
+      "levels": [
+        {
+          "label": "Aceptar ayuda",
+          "steps": [
+            {
+              "goal": "Ofrecer sin invadir",
+              "variants": [
+                "Acércate y dile: 'veo que no sale. ¿Te doy una mano?'.",
+                "Siéntate al lado sin tocar nada. Pregunta: '¿difícil, no?'.",
+                "Dile: 'cuando quieras, me llamas. Estoy acá al lado'."
+              ],
+              "fallbacks": [
+                "Empieza a hacer lo tuyo cerca. Presencia sin presión.",
+                "Pon la mano cerca del problema: '¿te enseño un truco?'."
+              ]
+            },
+            {
+              "goal": "Que señale el problema",
+              "variants": [
+                "Pregúntale: 'muéstrame con el dedo dónde se traba'.",
+                "Dile: '¿qué parte es la difícil? Señálamela'.",
+                "Ofrece dos lecturas: '¿no sale esto o esto otro?'."
+              ],
+              "fallbacks": [
+                "Adivina tú y verifica: '¿es esta parte, no?'.",
+                "Con que te lo acerque alcanza. Es su forma de pedir."
+              ]
+            },
+            {
+              "goal": "Ayudar y devolver",
+              "variants": [
+                "Ayuda con esa parte y devuelve el resto: 'sigue tú'.",
+                "Mientras ayudas, cuenta qué haces: 'mira, giro esto y listo'.",
+                "Dile: 'me señalaste y te ayudé. Así de fácil es pedir'."
+              ],
+              "fallbacks": [
+                "Háganlo juntos, mano sobre mano. El final es de {n}.",
+                "Si se frustra, pausa: 'lo terminamos después juntos'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Pedirla con la frase",
+          "steps": [
+            {
+              "goal": "Esperar disponible",
+              "variants": [
+                "No lo resuelvas tú. Espera al lado de {n}.",
+                "Siéntate cerca y mira otra cosa. Disponible, sin estar encima.",
+                "Dile solo: 'estoy acá si me necesitas'. Y espera.",
+                "Cuenta hasta 10 antes de intervenir. Dale su oportunidad."
+              ],
+              "fallbacks": [
+                "Acércate más. Quédate en silencio, disponible.",
+                "Pregúntale: '¿quieres seguir solo o con ayuda?'.",
+                "Pon tu mano cerca, sin tocar nada. Que decida él."
+              ]
+            },
+            {
+              "goal": "Darle la frase",
+              "variants": [
+                "Dile: 'si quieres ayuda, dime: ayúdame'.",
+                "Dile: 'las palabras mágicas son: ¿me ayudas?'.",
+                "Dile: 'no sale y está bien. Pedir ayuda también es saber'.",
+                "Pregúntale: '¿qué parte no sale?'. Que la nombre él."
+              ],
+              "fallbacks": [
+                "Dile: 'señala lo que no te sale'.",
+                "Ofrece opciones: '¿te ayudo con esto o con esto?'.",
+                "Empieza tú un poquito y frena: 'sigue tú'."
+              ]
+            },
+            {
+              "goal": "Responder sin cobrar",
+              "variants": [
+                "Cuando lo pida, ayuda enseguida. Sin comentarios.",
+                "Ayuda y nómbralo: 'pediste y vine. Así funciona'.",
+                "Ayuda con lo mínimo. Que el final sea de {n}.",
+                "Después dile: 'me gustó que pidieras ayuda'."
+              ],
+              "fallbacks": [
+                "Ayuda a medias. Dile: 'la última parte es tuya'.",
+                "Háganlo juntos, mano sobre mano.",
+                "Cierra: 'lo dejamos y lo terminamos después juntos'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Pedir solo",
+          "steps": [
+            {
+              "goal": "Correrse de la escena",
+              "variants": [
+                "Aléjate un poco más que otras veces. Que pedir requiera buscarte.",
+                "Antes dile: 'si necesitas algo, me vienes a buscar. Yo estoy allá'.",
+                "Ocúpate de otra cosa a la vista. Disponible, no encima."
+              ],
+              "fallbacks": [
+                "Acércate a medias: que el último tramo lo haga {n}.",
+                "Vuelve al nivel anterior: 'la frase es: ¿me ayudas?'."
+              ]
+            },
+            {
+              "goal": "Ampliar a quién pedir",
+              "variants": [
+                "Si hay otro adulto de confianza, dile: 'pídeselo a él. Yo miro'.",
+                "Sugiere: '¿y si le preguntas a tu amigo? Quizá sabe'.",
+                "Dile: 'pedir ayuda a otros también vale. Prueba'."
+              ],
+              "fallbacks": [
+                "Acompáñalo hasta la otra persona y quédate atrás.",
+                "Ensaya la frase con él antes: '¿me puedes ayudar?'."
+              ]
+            },
+            {
+              "goal": "Cerrar la vuelta",
+              "variants": [
+                "Después pregúntale: '¿qué pasó cuando pediste?'.",
+                "Dile: 'pediste solo. Eso es ser grande de verdad'.",
+                "Recuérdaselo a futuro: 'ya sabes pedir. Eso no se olvida'."
+              ],
+              "fallbacks": [
+                "Si no pidió, deja la puerta abierta: 'mañana va a salir'.",
+                "Valora lo que hubo: 'lo intentaste solo un buen rato'."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "join_play",
+      "title": "No se suma a jugar",
+      "icon": "puzzle-piece",
+      "levels": [
+        {
+          "label": "Mirar el juego",
+          "steps": [
+            {
+              "goal": "Acercarse sin meta",
+              "variants": [
+                "Dile a {n}: 'vamos a mirar cómo juegan. Solo mirar'.",
+                "Busca un lugar cerca del juego y siéntate con {n}.",
+                "Dile: 'elige desde dónde miramos. Tú decides'."
+              ],
+              "fallbacks": [
+                "Quédense más lejos, donde {n} esté cómodo.",
+                "Jueguen ustedes dos a otra cosa, cerca del grupo."
+              ]
+            },
+            {
+              "goal": "Poner palabras al juego",
+              "variants": [
+                "Cuéntale qué está pasando: 'están jugando a las chapadas'.",
+                "Pregúntale: '¿quién va ganando?'. Que mire con interés.",
+                "Dile: 'mira a ese niño. ¿Qué está haciendo?'."
+              ],
+              "fallbacks": [
+                "No preguntes más. Miren en silencio, juntos.",
+                "Comenta tú solo, bajito, sin pedirle respuesta."
+              ]
+            },
+            {
+              "goal": "Cerrar sin exigir",
+              "variants": [
+                "Dile: 'hoy vinimos a mirar. Mañana quizá jugamos'.",
+                "Pregúntale: '¿a qué te gustaría jugar la próxima?'.",
+                "Dile: 'ya conoces el juego. Eso es lo difícil'."
+              ],
+              "fallbacks": [
+                "Cierra corto: 'estuviste cerca. Alcanza por hoy'.",
+                "Váyanse antes de que se canse. Mejor quedarse con ganas."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Entrar con ayuda",
+          "steps": [
+            {
+              "goal": "Elegir el momento",
+              "variants": [
+                "Dile: 'esperamos a que termine la ronda y entramos'.",
+                "Busca con {n} al niño más tranquilo del grupo: 'empieza por él'.",
+                "Pregúntale: '¿entramos juntos o miras un ratito más?'."
+              ],
+              "fallbacks": [
+                "Esperen a que el juego cambie. Entrar al principio es más fácil.",
+                "Vuelve al plan de mirar: 'hoy miramos de cerca'."
+              ]
+            },
+            {
+              "goal": "Abrir la puerta con él",
+              "variants": [
+                "Ve con {n} y pregunta tú: '¿podemos jugar?'. Que él mire.",
+                "Dile bajito: 'pregunta: ¿puedo jugar? Yo voy contigo'.",
+                "Lleva algo que sume al juego: una pelota, un balde. Es su entrada."
+              ],
+              "fallbacks": [
+                "Pregunta tú solo y vuelve: 'dijeron que sí. ¿Vamos?'.",
+                "Empieza a jugar tú con los niños. {n} se suma cuando quiera."
+              ]
+            },
+            {
+              "goal": "Soltarlo dentro del juego",
+              "variants": [
+                "Cuando esté jugando, aléjate despacio. Sin anunciarlo.",
+                "Quédate a la vista los primeros minutos. Después, una banca cerca.",
+                "Si te busca, sonríe y quédate. No te metas en el juego."
+              ],
+              "fallbacks": [
+                "Si se sale del juego, recíbelo bien: 'jugaste un rato. Bien hecho'.",
+                "Vuelve a entrar con él una vez más. La segunda cuesta menos."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Sumarse solo",
+          "steps": [
+            {
+              "goal": "Armar el plan de entrada",
+              "variants": [
+                "Antes de llegar, pregúntale: '¿cómo vas a entrar hoy? Cuéntame tu plan'.",
+                "Recuérdale lo que ya sabe: 'la otra vez preguntaste y funcionó'.",
+                "Dile: 'hoy entras tú. Yo me quedo en la banca'."
+              ],
+              "fallbacks": [
+                "Reduce el plan: 'primero miras 2 minutos y después entras'.",
+                "Ensayen la frase una vez: '¿puedo jugar?'."
+              ]
+            },
+            {
+              "goal": "Quedarse afuera de verdad",
+              "variants": [
+                "Siéntate lejos, sin mirarlo fijo. Que sienta que es su momento.",
+                "No lo acompañes a la entrada. Ese tramo es suyo.",
+                "Ocúpate de algo. Si duda y te mira, salúdalo y sigue en lo tuyo."
+              ],
+              "fallbacks": [
+                "Acércate a mitad de camino, sin hablar. Solo presencia.",
+                "Dile: 'una vuelta más de mirada y entras'."
+              ]
+            },
+            {
+              "goal": "Que sea su victoria",
+              "variants": [
+                "Después pregúntale: '¿cómo hiciste para entrar?'.",
+                "No lo cuentes tú primero. Deja que lo cuente él en casa.",
+                "Dile: 'entraste solo. Ya sabes hacerlo en cualquier parque'."
+              ],
+              "fallbacks": [
+                "Si no entró: 'hoy no salió. El plan era bueno. Repetimos'.",
+                "Valora el intento exacto: 'llegaste hasta el borde. Eso es más que ayer'."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "order_shop",
+      "title": "No se anima a pedir",
+      "icon": "storefront",
+      "levels": [
+        {
+          "label": "Mirar cómo se pide",
+          "steps": [
+            {
+              "goal": "Prepararlo antes de entrar",
+              "variants": [
+                "Antes de entrar dile a {n}: 'hoy pido yo. Tú mira cómo lo hago'.",
+                "Dile: 'entramos juntos. No tienes que hablar con nadie'.",
+                "Pregúntale: '¿qué vamos a pedir? Elígelo tú'."
+              ],
+              "fallbacks": [
+                "Si no quiere entrar, miren la vitrina. Con eso empieza.",
+                "Entra tú y que {n} mire desde la puerta."
+              ]
+            },
+            {
+              "goal": "Modelar el pedido",
+              "variants": [
+                "Pide despacio y claro. {n} está grabando cómo se hace.",
+                "Antes de pedir, dile bajito: 'mira: saludo, pido, gracias'.",
+                "Pide lo que {n} eligió y nómbralo: 'esto es para él'."
+              ],
+              "fallbacks": [
+                "Repite la escena en otra tienda. Ver dos veces enseña doble.",
+                "Comenta al salir: '¿viste qué fácil? Saludo, pido, gracias'."
+              ]
+            },
+            {
+              "goal": "Un cierre pequeño",
+              "variants": [
+                "Que {n} reciba lo que pediste, o pague con tu ayuda.",
+                "Pregúntale al salir: '¿qué dije primero? ¿Y después?'.",
+                "Dile: 'la próxima el gracias lo dices tú'."
+              ],
+              "fallbacks": [
+                "Sin tarea para él hoy. Mirar ya fue el trabajo.",
+                "Cierra: 'viste cómo se hace. Un día lo haces tú'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Pedir juntos",
+          "steps": [
+            {
+              "goal": "Acordar las partes",
+              "variants": [
+                "Antes de entrar: 'yo saludo, tú dices qué quieres. ¿Trato?'.",
+                "Ensayen la frase afuera: 'un helado de chocolate, por favor'.",
+                "Dile: 'si te trabas, aprieta mi mano y sigo yo'."
+              ],
+              "fallbacks": [
+                "Reduce su parte: 'tú solo dices chocolate. Yo digo el resto'.",
+                "Vuelve al plan de mirar: 'hoy pido yo, miras tú'."
+              ]
+            },
+            {
+              "goal": "Su parte, en el mostrador",
+              "variants": [
+                "Saluda tú y mira a {n}: es su pie para hablar.",
+                "Si tarda, espera. No pidas por él antes de contar 5.",
+                "Si habla muy bajito, no lo corrijas. El vendedor entiende."
+              ],
+              "fallbacks": [
+                "Repite tú lo que dijo, sin regañarlo: 'un helado de chocolate'.",
+                "Dile: 'señálalo con el dedo'. Señalar también es pedir."
+              ]
+            },
+            {
+              "goal": "Reconocer sin inflar",
+              "variants": [
+                "Al salir, dile: 'pediste tu parte. Salió'.",
+                "Pregúntale: '¿qué se sintió pedir?'. Escucha sin corregir.",
+                "Dile: 'la próxima agregas el por favor. Vas subiendo'."
+              ],
+              "fallbacks": [
+                "Si no habló: 'no salió hoy. La ensayamos y va de nuevo'.",
+                "Sin sermón. El helado cierra la escena solo."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Pedir solo",
+          "steps": [
+            {
+              "goal": "Darle la misión",
+              "variants": [
+                "Dale la plata y dile: 'este pedido es tuyo. Yo espero acá'.",
+                "Pregúntale: '¿qué vas a decir? Cuéntamelo antes de entrar'.",
+                "Dile: 'si te trabas, respira y empieza de nuevo. Sin apuro'."
+              ],
+              "fallbacks": [
+                "Reduce la misión: 'pides tú y pago yo a tu lado'.",
+                "Entra con él pero quédate en la puerta, visible."
+              ]
+            },
+            {
+              "goal": "Esperar afuera",
+              "variants": [
+                "Quédate donde te vea por la vitrina. No entres.",
+                "No mires fijo. Que sienta confianza, no vigilancia.",
+                "Si tarda más de lo esperado, espera. Tardar no es fallar."
+              ],
+              "fallbacks": [
+                "Asómate y ofrece lo mínimo: '¿todo bien?'. Y vuelve afuera.",
+                "Entra y quédate atrás, sin hablar. Tu presencia alcanza."
+              ]
+            },
+            {
+              "goal": "Sellar la autonomía",
+              "variants": [
+                "Recíbelo normal, sin fiesta: 'gracias. ¿Qué te dijeron?'.",
+                "Pregúntale: '¿qué fue lo más fácil? ¿Y lo más difícil?'.",
+                "Dale una misión nueva pronto: 'mañana el pan lo compras tú'."
+              ],
+              "fallbacks": [
+                "Si volvió sin pedir: 'pasa. Entramos juntos y lo haces con ayuda'.",
+                "Valora lo que hubo: 'entraste solo. Eso ya es la mitad'."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "party",
+      "title": "Cumpleaños y fiestas",
+      "icon": "cake",
+      "levels": [
+        {
+          "label": "Llegar y ubicarse",
+          "steps": [
+            {
+              "goal": "Entrar sin apuro",
+              "variants": [
+                "Lleguen temprano, con poca gente. Entrar primero es más fácil.",
+                "Dile a {n}: 'entramos juntos y buscamos un lugar tranquilo'.",
+                "Antes de entrar, cuéntale qué va a haber: 'torta, juegos, amigos'."
+              ],
+              "fallbacks": [
+                "Quédense un rato en la entrada. Se entra cuando él diga.",
+                "Den una vuelta afuera y prueben de nuevo en 5 minutos."
+              ]
+            },
+            {
+              "goal": "Encontrar una base",
+              "variants": [
+                "Busquen juntos su lugar: una silla, un rincón desde donde ver todo.",
+                "Quédate con {n} en su base. Tú eres parte del refugio.",
+                "Muéstrale dónde vas a estar tú toda la fiesta: 'acá me encuentras'."
+              ],
+              "fallbacks": [
+                "Salgan a un lugar más tranquilo y vuelvan poco a poco.",
+                "Ofrécele algo que hacer en la base: comer algo, mirar los globos."
+              ]
+            },
+            {
+              "goal": "Un logro pequeño y a casa",
+              "variants": [
+                "Antes de irse, dile: 'viniste y estuviste. Eso era lo difícil'.",
+                "Pregúntale: '¿qué fue lo mejor de la fiesta?'.",
+                "Si saludó al cumpleañero aunque sea de lejos, nómbralo."
+              ],
+              "fallbacks": [
+                "Si la pasó mal, no lo marques: 'las fiestas cansan. Ya está'.",
+                "Váyanse antes del colapso. Irse bien también es ganar."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Acercarse al grupo",
+          "steps": [
+            {
+              "goal": "Salir de la base",
+              "variants": [
+                "Proponle: 'vamos a ver qué están jugando. Yo voy contigo'.",
+                "Dile: 'elige: ¿mesa de comida, juegos o música?'. Que elija él.",
+                "Busca una cara conocida: 'mira, está Juli. ¿Nos acercamos?'."
+              ],
+              "fallbacks": [
+                "Vuelvan a la base un rato. Se sale de nuevo después.",
+                "Acércate tú primero al grupo. {n} te sigue cuando quiera."
+              ]
+            },
+            {
+              "goal": "Un contacto",
+              "variants": [
+                "Dile: 'dile hola a uno. Uno solo. Elígelo tú'.",
+                "Ayúdalo a entrar por lo concreto: 'pídele un globo a ese niño'.",
+                "Si hay un juego, dile: 'ponte en la fila. Nada más'."
+              ],
+              "fallbacks": [
+                "Con estar cerca del grupo alcanza. Quédate con él ahí.",
+                "Haz tú el contacto: 'chicos, ¿puede jugar {n}?'. Y hazte a un lado."
+              ]
+            },
+            {
+              "goal": "Sostener sin colgarse",
+              "variants": [
+                "Cuando esté con otros, ve a la zona de padres. A la vista.",
+                "Si te busca, salúdalo de lejos. No vuelvas enseguida.",
+                "Vuelve cada tanto sin que te llame: '¿todo bien? Sigo allá'."
+              ],
+              "fallbacks": [
+                "Si vuelve a la base, recíbelo: 'jugaste un rato. ¿Volvemos?'.",
+                "Quédate cerca del grupo, pero sin participar."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Disfrutar a su ritmo",
+          "steps": [
+            {
+              "goal": "Plan propio",
+              "variants": [
+                "Antes de la fiesta pregúntale: '¿qué quieres hacer primero?'.",
+                "Dile: 'hoy mandas tú. Yo estoy con los padres'.",
+                "Acuerda los descansos: 'si te cansas, vienes, respiras y vuelves'."
+              ],
+              "fallbacks": [
+                "Reduce el plan: 'entras, saludas al cumpleañero y vemos'.",
+                "Repasen lo que ya salió bien en otras fiestas."
+              ]
+            },
+            {
+              "goal": "Dejarlo circular",
+              "variants": [
+                "No lo sigas con la mirada. Entérate de la fiesta por él, después.",
+                "Si viene a la zona de padres, recíbelo corto y despídelo: 'ya, anda'.",
+                "Resiste la tentación de presentarle niños. Que elija él."
+              ],
+              "fallbacks": [
+                "Si se queda solo mucho rato, acércate una vez: '¿plan B?'.",
+                "Sugiérele una entrada concreta: 'está por empezar el juego. Ahí entras'."
+              ]
+            },
+            {
+              "goal": "Cerrar como logro suyo",
+              "variants": [
+                "En casa pregúntale: '¿con quién jugaste? ¿Qué hicieron?'.",
+                "Dile: 'te vi jugando. Estuviste en toda la fiesta'.",
+                "Anota con él a quién quiere invitar a su cumpleaños."
+              ],
+              "fallbacks": [
+                "Si hubo un mal momento, uno solo: 'eso pasó. El resto estuvo bueno'.",
+                "Cierra sin análisis: 'buena fiesta. A dormir'."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "new_kid",
+      "title": "Conocer a un niño nuevo",
+      "icon": "smiley",
+      "levels": [
+        {
+          "label": "Estar y mirar",
+          "steps": [
+            {
+              "goal": "Bajar la presión",
+              "variants": [
+                "Ponte a su altura. Dile a {n}: 'solo mira 10 segundos'.",
+                "Quédate cerca. Dile a {n}: 'mira cómo juegan'.",
+                "Tómale la mano. Dile a {n}: 'estamos juntos acá'."
+              ],
+              "fallbacks": [
+                "Aléjate un paso con {n}. Dile: 'mira desde acá'.",
+                "Dile: 'hoy solo mirar alcanza'."
+              ]
+            },
+            {
+              "goal": "Modelar acercamiento",
+              "variants": [
+                "Acércate tú. Di: 'hola'. Que {n} te vea.",
+                "Señala el juego. Dile a {n}: 'mira eso'.",
+                "Saluda tú. No mires a {n}."
+              ],
+              "fallbacks": [
+                "Quédate a distancia. Sigue mirando el juego.",
+                "Dile: 'miramos un ratito más y listo'."
+              ]
+            },
+            {
+              "goal": "Cerrar sin presión",
+              "variants": [
+                "Dile a {n}: 'te quedaste mirando, eso cuenta'.",
+                "Nómbralo: 'estuviste acá un rato'.",
+                "Dile: 'mañana probamos otro paso'."
+              ],
+              "fallbacks": [
+                "Dile: 'con esto alcanza por hoy'.",
+                "Retírate tranquilo con {n}."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Un gesto, un hola",
+          "steps": [
+            {
+              "goal": "Invitar el gesto",
+              "variants": [
+                "Dile a {n}: 'prueba saludar con la mano'.",
+                "Muestra tú una sonrisa. Mira a {n}.",
+                "Dile: 'un hola cortito y listo'."
+              ],
+              "fallbacks": [
+                "Dile: 'una sonrisa también sirve'.",
+                "Dile: 'solo mira y ya'."
+              ]
+            },
+            {
+              "goal": "Acompañar la acción",
+              "variants": [
+                "Saluda tú y espera 5 segundos.",
+                "Dile a {n}: 'yo digo hola, tú mira'.",
+                "Acércate medio paso con {n}."
+              ],
+              "fallbacks": [
+                "Retrocede medio paso.",
+                "Dile: 'probamos después'."
+              ]
+            },
+            {
+              "goal": "Nombrar el logro",
+              "variants": [
+                "Dile: 'hiciste un gesto, bien'.",
+                "Nómbralo: 'saludaste a tu manera'.",
+                "Dile: 'eso fue intentar'."
+              ],
+              "fallbacks": [
+                "Dile: 'te vi intentarlo'.",
+                "Cierra: 'mañana seguimos'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Su voz, solo",
+          "steps": [
+            {
+              "goal": "Dar la iniciativa",
+              "variants": [
+                "Quédate atrás. Dile a {n}: 'prueba decir hola'.",
+                "Señala y guarda silencio 5 segundos.",
+                "Dile: 've tú, te miro desde acá'."
+              ],
+              "fallbacks": [
+                "Acércate un paso con {n}.",
+                "Dile: 'con una mano alcanza'."
+              ]
+            },
+            {
+              "goal": "Sostener el silencio",
+              "variants": [
+                "Espera 5 segundos. No hables.",
+                "Mira a {n} y asiente.",
+                "Quédate quieto atrás."
+              ],
+              "fallbacks": [
+                "Dile: 'tómate tu tiempo'.",
+                "Acércate y modela tú."
+              ]
+            },
+            {
+              "goal": "Cierre concreto",
+              "variants": [
+                "Dile: 'fuiste tú solo'.",
+                "Nómbralo: 'dijiste hola'.",
+                "Dile: 'eso es acercarte'."
+              ],
+              "fallbacks": [
+                "Dile: 'lo intentaste'.",
+                "Cierra: 'con esto alcanza'."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "speak_class",
+      "title": "No habla en clase",
+      "icon": "chalkboard-teacher",
+      "levels": [
+        {
+          "label": "Estar y escuchar",
+          "steps": [
+            {
+              "goal": "Bajar la presión",
+              "variants": [
+                "Dile a {n}: 'solo escucha 10 segundos'.",
+                "Ponte a su altura. Dile: 'mira a la profesora'.",
+                "Dile: 'quédate y escucha'."
+              ],
+              "fallbacks": [
+                "Dile: 'mira desde tu sitio'.",
+                "Dile: 'hoy alcanza con escuchar'."
+              ]
+            },
+            {
+              "goal": "Modelar la pregunta",
+              "variants": [
+                "Haz una pregunta tú delante de {n}.",
+                "Di en voz baja una duda tuya.",
+                "Muestra cómo levantar la mano."
+              ],
+              "fallbacks": [
+                "Di la pregunta tú sin mirar a {n}.",
+                "Vuelve a sentarte con {n}."
+              ]
+            },
+            {
+              "goal": "Cerrar en positivo",
+              "variants": [
+                "Dile: 'estuviste y escuchaste'.",
+                "Nómbralo: 'te quedaste ahí'.",
+                "Dile: 'eso suma'."
+              ],
+              "fallbacks": [
+                "Dile: 'con eso alcanza'.",
+                "Cierra: 'mañana probamos'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Un gesto, una duda",
+          "steps": [
+            {
+              "goal": "Invitar el gesto",
+              "variants": [
+                "Dile: 'levanta la mano 2 segundos'.",
+                "Muéstrale cómo se levanta la mano.",
+                "Dile: 'señala el cuaderno'."
+              ],
+              "fallbacks": [
+                "Dile: 'mira y listo'.",
+                "Baja la exigencia: 'solo escucha'."
+              ]
+            },
+            {
+              "goal": "Acompañar la voz",
+              "variants": [
+                "Dile: 'yo empiezo, tú terminas'.",
+                "Susurra la pregunta con {n}.",
+                "Dile: 'di una palabra'."
+              ],
+              "fallbacks": [
+                "Di tú la pregunta.",
+                "Dile: 'otro día probamos'."
+              ]
+            },
+            {
+              "goal": "Nombrar el logro",
+              "variants": [
+                "Dile: 'participaste'.",
+                "Nómbralo: 'levantaste la mano'.",
+                "Dile: 'hiciste una parte'."
+              ],
+              "fallbacks": [
+                "Dile: 'lo intentaste'.",
+                "Cierra: 'alcanza por hoy'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Su voz, solo",
+          "steps": [
+            {
+              "goal": "Dar la iniciativa",
+              "variants": [
+                "Dile: 'pregunta tú'.",
+                "Quédate atrás y mira.",
+                "Señala a la profesora."
+              ],
+              "fallbacks": [
+                "Acércate un paso.",
+                "Dile: 'una palabra alcanza'."
+              ]
+            },
+            {
+              "goal": "Sostener sin rescatar",
+              "variants": [
+                "Espera 5 segundos.",
+                "Asiente sin hablar.",
+                "Quédate quieto."
+              ],
+              "fallbacks": [
+                "Dile: 'tómate tu tiempo'.",
+                "Modela tú."
+              ]
+            },
+            {
+              "goal": "Cierre concreto",
+              "variants": [
+                "Dile: 'hablaste tú'.",
+                "Nómbralo: 'hiciste la pregunta'.",
+                "Dile: 'eso es participar'."
+              ],
+              "fallbacks": [
+                "Dile: 'lo intentaste'.",
+                "Cierra: 'mañana seguimos'."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "perform",
+      "title": "No quiere actuar",
+      "icon": "presentation",
+      "levels": [
+        {
+          "label": "Estar y mirar",
+          "steps": [
+            {
+              "goal": "Bajar la presión",
+              "variants": [
+                "Dile a {n}: 'hoy no actúas. Venimos a mirar cómo lo hacen otros'.",
+                "Busquen un sitio al costado, sin público detrás. Que vea la salida.",
+                "Ponte a su altura. Dile: 'quédate conmigo y miramos juntos'.",
+                "Dile: 'nos vamos cuando tú digas. Hoy mandas tú'."
+              ],
+              "fallbacks": [
+                "Miren desde la puerta. Adentro se entra después.",
+                "Dile: 'hoy alcanza con escuchar desde aquí'."
+              ]
+            },
+            {
+              "goal": "Mirar cómo se hace",
+              "variants": [
+                "Señálale a un niño en escena: 'mira, también le tiembla la voz. Y sigue'.",
+                "Cuéntale qué va a pasar: 'primero saludan, después cantan, y aplausos'.",
+                "Pregúntale bajito: '¿qué parte te gusta más?'. Que mire con interés."
+              ],
+              "fallbacks": [
+                "No comentes más. Miren en silencio, hombro con hombro.",
+                "Salgan un momento y vuelvan para el aplauso."
+              ]
+            },
+            {
+              "goal": "Cerrar en positivo",
+              "variants": [
+                "Al salir, dile: 'hoy miraste todo. Así se empieza'.",
+                "Pregúntale: '¿qué harías tú en el escenario?'. Imaginar ya suma.",
+                "Dile: 'la próxima practicamos tu parte en casa. Hoy ya está'."
+              ],
+              "fallbacks": [
+                "Sin sermón. Un abrazo y a otra cosa.",
+                "Dile: 'viniste y te quedaste. Eso era lo difícil'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Una parte pequeña",
+          "steps": [
+            {
+              "goal": "Ensayar antes",
+              "variants": [
+                "Ensayen su parte en casa 3 veces. La última, con público de peluches.",
+                "Divide su parte: 'tú dices la primera frase, el resto va solo'.",
+                "Pregúntale: '¿qué parte te sale mejor? Empezamos por esa'."
+              ],
+              "fallbacks": [
+                "Reduce la parte: 'con una frase alcanza'.",
+                "Que la diga en susurro. El volumen sube después."
+              ]
+            },
+            {
+              "goal": "Acompañar en escena",
+              "variants": [
+                "Acuerda una señal desde el público: tu pulgar arriba es 'vas bien'.",
+                "Dile: 'búscame con la mirada. Voy a estar ahí, fijo'.",
+                "Colócate donde te vea sin buscar: primera fila, al costado."
+              ],
+              "fallbacks": [
+                "Pide quedarte cerca del escenario. Tu presencia baja el miedo.",
+                "Dile: 'si te trabas, respira y mírame. Yo asiento y sigues'."
+              ]
+            },
+            {
+              "goal": "Nombrar el logro",
+              "variants": [
+                "Al bajar, dile: 'dijiste tu parte. Te escuché clarito'.",
+                "Pregúntale: '¿qué sentiste arriba?'. Escucha sin corregir.",
+                "No lo hagas repetir la actuación para los tíos. Ya cumplió."
+              ],
+              "fallbacks": [
+                "Si no salió: 'subiste. Eso ya fue actuar'.",
+                "Cierra corto: 'la próxima sale más fácil. Siempre pasa'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Solo al frente",
+          "steps": [
+            {
+              "goal": "Plan propio",
+              "variants": [
+                "Pregúntale: '¿cómo quieres empezar? Cuéntame tu plan'.",
+                "Dile: 'hoy no ensayo contigo. Tú ya sabes tu parte'.",
+                "Acuerden solo el final: 'cuando termines, te espero en la puerta'."
+              ],
+              "fallbacks": [
+                "Repasen una vez, rápido, sin corregir nada.",
+                "Dile: 'si te trabas, saltas a lo que sigue. Nadie se da cuenta'."
+              ]
+            },
+            {
+              "goal": "Correrse de la escena",
+              "variants": [
+                "Siéntate atrás, donde no te busque fácil. Es su momento.",
+                "No muevas los labios con su texto. Confía en silencio.",
+                "Si se traba, cuenta hasta 5 antes de reaccionar. Suele salir solo."
+              ],
+              "fallbacks": [
+                "Muévete a un lado visible, sin gestos.",
+                "Haz la señal acordada una sola vez y baja la mano."
+              ]
+            },
+            {
+              "goal": "Que sea su victoria",
+              "variants": [
+                "Después pregúntale: '¿cómo hiciste para animarte?'.",
+                "Deja que cuente él la actuación en casa. Es su historia.",
+                "Dile: 'saliste al frente solo. Eso ya no se olvida'."
+              ],
+              "fallbacks": [
+                "Si no salió: 'el escenario sigue ahí mañana. El plan era bueno'.",
+                "Valora lo exacto: 'llegaste hasta el micrófono. Más que la vez pasada'."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guests_home",
+      "title": "Se esconde con visitas",
+      "icon": "house",
+      "levels": [
+        {
+          "label": "Estar cerca",
+          "steps": [
+            {
+              "goal": "Avisar antes",
+              "variants": [
+                "Antes de que lleguen, dile a {n}: 'viene la tía. No tienes que saludar'.",
+                "Cuéntale quiénes vienen y a qué: 'a conversar y tomar lonche'.",
+                "Acuerden su refugio: 'si quieres, te quedas en tu cuarto un rato'."
+              ],
+              "fallbacks": [
+                "Si ya llegaron, ve tú a su cuarto: 'yo te aviso cuando haya torta'.",
+                "Dile: 'hoy alcanza con saber quién vino'."
+              ]
+            },
+            {
+              "goal": "Dejar la puerta abierta",
+              "variants": [
+                "Deja su puerta abierta. Que escuche las voces sin presión.",
+                "Pasa por su cuarto cada rato, sin pedirle nada.",
+                "Dile: 'te guardo un sitio a mi lado por si sales'."
+              ],
+              "fallbacks": [
+                "Llévale algo de la mesa: 'esto mandó la tía'.",
+                "Siéntate un rato con él en su cuarto. Sin apuro."
+              ]
+            },
+            {
+              "goal": "Cerrar sin marcar",
+              "variants": [
+                "Si se asomó, dile después: 'te vi mirando. Eso cuenta'.",
+                "No lo compares con primos que sí saludan. Ni en broma.",
+                "Al irse las visitas, dile: 'la casa vuelve a ser tuya'."
+              ],
+              "fallbacks": [
+                "Si no salió, no lo menciones en la cena.",
+                "Dile: 'la próxima te aviso antes. Trato hecho'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Salir un momento",
+          "steps": [
+            {
+              "goal": "Una misión concreta",
+              "variants": [
+                "Dale una misión con objeto: 'lleva las servilletas a la mesa'.",
+                "Dile: 'sales, dejas esto y vuelves. Nada más'.",
+                "Pídele ayuda real: 'necesito que me traigas los vasos'."
+              ],
+              "fallbacks": [
+                "Sal con él: 'lo llevamos juntos y volvemos'.",
+                "Reduce: 'te asomas y me haces una seña'."
+              ]
+            },
+            {
+              "goal": "Cruzar la sala acompañado",
+              "variants": [
+                "Camina delante de él. Tu espalda es su escudo.",
+                "Preséntalo sin pedirle nada: 'él es {n}'. Y cambia de tema.",
+                "Si alguien le habla, dale tiempo. No respondas por {n}."
+              ],
+              "fallbacks": [
+                "Ponle una mano en el hombro mientras cruza.",
+                "Dile bajito: 'con una sonrisa basta'."
+              ]
+            },
+            {
+              "goal": "Nombrar el logro",
+              "variants": [
+                "Cuando vuelva, dile bajito: 'saliste con gente en la sala. Bien'.",
+                "Dile: 'la tía se alegró de verte'. Concreto y ya.",
+                "Pregúntale: '¿quieres salir otra vez o ya está?'. Que decida."
+              ],
+              "fallbacks": [
+                "Si no salió: 'la misión sigue en pie para la próxima'.",
+                "Cierra: 'te asomaste. Eso ya es salir'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Recibir él",
+          "steps": [
+            {
+              "goal": "Darle un rol",
+              "variants": [
+                "Antes de que lleguen: 'hoy tú abres la puerta. Yo estoy detrás'.",
+                "Pregúntale: '¿qué les quieres mostrar hoy? Tú eliges'.",
+                "Dile: 'tú repartes las servilletas y saludas al que quieras'."
+              ],
+              "fallbacks": [
+                "Baja el rol: 'abres la puerta conmigo al lado'.",
+                "Dile: 'elige tú: puerta o mesa'."
+              ]
+            },
+            {
+              "goal": "Quedarse atrás",
+              "variants": [
+                "Cuando saluden a {n}, ocúpate de otra cosa. El turno es suyo.",
+                "Si le preguntan algo, aguanta el silencio. No traduzcas por él.",
+                "Mira desde la cocina. Cerca, pero fuera de escena."
+              ],
+              "fallbacks": [
+                "Acércate sin hablar. Tu presencia alcanza.",
+                "Rescátalo con dignidad: '{n}, ¿me ayudas adentro?'."
+              ]
+            },
+            {
+              "goal": "Que lo cuente él",
+              "variants": [
+                "En la cena pregúntale: '¿quién te cayó mejor hoy?'.",
+                "Dile: 'recibiste a las visitas tú. Esta casa también es tuya'.",
+                "Deja que cuente él qué mostró o qué dijo."
+              ],
+              "fallbacks": [
+                "Si se escondió a mitad: 'saludaste al llegar. Con eso ya ganaste'.",
+                "Cierra sin análisis: 'buena visita. Ya está'."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doctor_visit",
+      "title": "No quiere ir al médico",
+      "icon": "stethoscope",
+      "levels": [
+        {
+          "label": "Saber qué viene",
+          "steps": [
+            {
+              "goal": "Contar el plan",
+              "variants": [
+                "Camino al médico, dile: 'te va a mirar la garganta y volvemos'.",
+                "Cuéntale solo lo que sabes seguro: 'te pesan, te miden y salimos'.",
+                "Deja que lleve algo suyo: un juguete, su carrito. Su pedazo de casa."
+              ],
+              "fallbacks": [
+                "Si pregunta con miedo, responde corto y cierto. Sin adornos.",
+                "Dile: 'yo me quedo contigo todo el rato. Siempre'."
+              ]
+            },
+            {
+              "goal": "Esperar sin que crezca el miedo",
+              "variants": [
+                "En la sala de espera, jueguen a algo: veo veo, contar zapatos.",
+                "Nómbrale lo que ve: 'esa es la balanza. Solo pesa'.",
+                "Siéntalo a tu lado, no al frente. Hombro con hombro asusta menos."
+              ],
+              "fallbacks": [
+                "Salgan a caminar por el pasillo y vuelvan.",
+                "Cárgalo un rato. En brazos se espera mejor."
+              ]
+            },
+            {
+              "goal": "Cerrar el día",
+              "variants": [
+                "Al salir, dile: 'entraste y te revisaron. Eso era todo'.",
+                "Pregúntale: '¿qué fue más fácil de lo que pensabas?'.",
+                "Nada de 'viste que no era nada'. Mejor: 'estuviste tranquilo. Te vi'."
+              ],
+              "fallbacks": [
+                "Si lloró: 'llorar también vale. Igual lo hiciste'.",
+                "Cierra corto y a otra cosa. Sin revivir el momento."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Participar con ayuda",
+          "steps": [
+            {
+              "goal": "Modelar la consulta",
+              "variants": [
+                "Pide que te revisen a ti primero, aunque sea en broma. Que mire.",
+                "Saluda tú al médico y presenta a {n}: 'él es {n}'. Sin pedirle nada.",
+                "Dile bajito: 'mira: primero escucha el pecho, después la garganta'."
+              ],
+              "fallbacks": [
+                "Pídele al médico un minuto de charla antes de tocar a {n}.",
+                "Muéstrale el estetoscopio en tu pecho: 'frío y ya'."
+              ]
+            },
+            {
+              "goal": "Su parte pequeña",
+              "variants": [
+                "Dile: 'cuando te pregunte tu nombre, lo dices tú'.",
+                "Dile: 'tú subes solo a la balanza. Yo miro el número'.",
+                "Pídele que muestre él dónde le duele, con el dedo."
+              ],
+              "fallbacks": [
+                "Responde tú y deja el final: '¿le dices cuántos años tienes?'.",
+                "Dile: 'asiente con la cabeza. El doctor entiende'."
+              ]
+            },
+            {
+              "goal": "Nombrar el logro",
+              "variants": [
+                "Al salir: 'dijiste tu nombre al doctor. Con tu voz'.",
+                "Cuéntalo en casa delante de {n}: 'hoy se dejó revisar tranquilo'.",
+                "Pregúntale: '¿qué le dirías al doctor la próxima?'."
+              ],
+              "fallbacks": [
+                "Si no habló: 'mostraste dónde era. Eso ayudó al doctor'.",
+                "Cierra: 'cada visita sale más fácil. Ya vas viendo'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Su consulta",
+          "steps": [
+            {
+              "goal": "Prepararlo como grande",
+              "variants": [
+                "Antes de entrar: 'hoy tú respondes al doctor. Yo solo acompaño'.",
+                "Ensayen las preguntas de siempre: nombre, edad, qué te duele.",
+                "Dile: 'si no entiendes algo, pregúntale al doctor, no a mí'."
+              ],
+              "fallbacks": [
+                "Acuerden una señal por si necesita que entres tú.",
+                "Baja la meta: 'respondes dos preguntas y sigo yo'."
+              ]
+            },
+            {
+              "goal": "Quedarse en segundo plano",
+              "variants": [
+                "Siéntate detrás de {n}, no a su lado. El paciente es él.",
+                "Cuando el doctor te mire a ti, señala a {n}: 'pregúntale a él'.",
+                "Aguanta el silencio si tarda en responder. El doctor sabe esperar."
+              ],
+              "fallbacks": [
+                "Completa solo los datos que él no sabe. Lo suyo es suyo.",
+                "Ponle una mano en el hombro y guarda silencio."
+              ]
+            },
+            {
+              "goal": "Sellar la autonomía",
+              "variants": [
+                "Al salir, dile: 'esa consulta fue tuya. Yo casi ni hablé'.",
+                "Pregúntale: '¿qué te dijo el doctor?'. Que te lo explique él.",
+                "Dile: 'ya sabes ir al médico. Eso es ser grande'."
+              ],
+              "fallbacks": [
+                "Si se trabó: 'respondiste la mitad tú. La otra mitad, la próxima'.",
+                "Cierra sin nota: 'listo. Nos fuimos'."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phone_call",
+      "title": "Llamadas y videollamadas",
+      "icon": "phone-call",
+      "levels": [
+        {
+          "label": "Estar y oír",
+          "steps": [
+            {
+              "goal": "Sin obligación de hablar",
+              "variants": [
+                "Antes de contestar, dile a {n}: 'no tienes que hablar. Solo estamos'.",
+                "Pon el altavoz y sigue en lo tuyo. Que la voz se vuelva normal.",
+                "Dile: 'es la abuela. ¿La escuchamos un ratito?'."
+              ],
+              "fallbacks": [
+                "Baja el volumen y déjalo lejos. Que la oiga de fondo.",
+                "Dile: 'hoy alcanza con saber quién llamó'."
+              ]
+            },
+            {
+              "goal": "Acercarse a su modo",
+              "variants": [
+                "Si es video, deja que mire la pantalla desde tu hombro.",
+                "Cuéntale a la abuela algo de {n} delante de él: 'hoy armó una torre'.",
+                "Pregúntale bajito: '¿le mostramos tu dibujo?'. Mostrar no es hablar."
+              ],
+              "fallbacks": [
+                "Deja que escuche escondido. Escuchar ya es participar.",
+                "Corta corto: 'te mandó un beso. Ya está'."
+              ]
+            },
+            {
+              "goal": "Cerrar sin deuda",
+              "variants": [
+                "Al colgar, dile: 'la abuela se alegró de verte'. Y nada más.",
+                "No le digas 'la próxima hablas'. Las deudas pesan.",
+                "Pregúntale: '¿qué dijo la abuela?'. Escuchó más de lo que crees."
+              ],
+              "fallbacks": [
+                "Sin comentario. La llamada terminó y ya.",
+                "Dile: 'estuviste en la llamada. Eso cuenta'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Una palabra",
+          "steps": [
+            {
+              "goal": "Preparar su parte",
+              "variants": [
+                "Antes de llamar, pregúntale: '¿le decimos hola o le mostramos algo?'.",
+                "Ensaya con él: 'hola abuela', una vez, sin cámara.",
+                "Dile: 'tú dices hola y yo sigo hablando. Trato hecho'."
+              ],
+              "fallbacks": [
+                "Baja la parte: 'saludas con la mano a la cámara'.",
+                "Dile: 'hoy solo miras. Mañana el hola'."
+              ]
+            },
+            {
+              "goal": "Su momento al teléfono",
+              "variants": [
+                "Cuando salude, acércale la pantalla y quédate al lado.",
+                "Si se traba, espera 5 segundos antes de rescatarlo.",
+                "Sostén tú el teléfono. Que él solo ponga la voz."
+              ],
+              "fallbacks": [
+                "Retoma la llamada sin drama: 'acá sigo yo'.",
+                "Dile: 'muéstrale tu juguete'. Mostrar también es conversar."
+              ]
+            },
+            {
+              "goal": "Nombrar el logro",
+              "variants": [
+                "Al colgar: 'dijiste hola y la abuela sonrió. ¿Viste?'.",
+                "Dile: 'tu voz llegó hasta su casa. Así funciona'.",
+                "Pregúntale: '¿qué le decimos la próxima?'. Que elija él."
+              ],
+              "fallbacks": [
+                "Si no habló: 'la saludaste con la mano. Te vio'.",
+                "Cierra sin vueltas: 'buena llamada. Ya está'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Habla solo",
+          "steps": [
+            {
+              "goal": "Darle la llamada",
+              "variants": [
+                "Dile: 'llama tú a la abuela. Yo estoy acá si me necesitas'.",
+                "Pregúntale antes: '¿qué le vas a contar?'. Un tema alcanza.",
+                "Deja que conteste él cuando suene. Su turno."
+              ],
+              "fallbacks": [
+                "Marca tú y pásale el teléfono ya contestado.",
+                "Baja la meta: 'hablas tú y me lo pasas cuando quieras'."
+              ]
+            },
+            {
+              "goal": "Salir de la escena",
+              "variants": [
+                "Aléjate a donde no te vea. Que la conversación sea de ellos.",
+                "No soples respuestas desde atrás. Deja los silencios.",
+                "Ocúpate de algo cerca. Disponible, no encima."
+              ],
+              "fallbacks": [
+                "Quédate a la vista pero en silencio.",
+                "Entra solo si te llama: 'acá estoy'."
+              ]
+            },
+            {
+              "goal": "Que sea suyo",
+              "variants": [
+                "Después pregúntale: '¿qué te contó la abuela?'.",
+                "Dile: 'hablaste tú solo toda la llamada. Eso es tuyo'.",
+                "Cuando pregunten quién habló con la abuela, que responda él."
+              ],
+              "fallbacks": [
+                "Si cortó rápido: 'fue corta pero tuya. Vale doble'.",
+                "Cierra: 'la abuela va a esperar tu próxima llamada'."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taken_toy",
+      "title": "Le quitan algo",
+      "icon": "hand-grabbing",
+      "levels": [
+        {
+          "label": "Parar y nombrar",
+          "steps": [
+            {
+              "goal": "Primero su cuerpo",
+              "variants": [
+                "Ponte a su altura y míralo: 'vi lo que pasó'.",
+                "Dile: 'respira conmigo 3 veces. Después vemos'.",
+                "Si está congelado, tómale la mano. El cuerpo primero."
+              ],
+              "fallbacks": [
+                "Sácalo un paso del lugar: 'ven, acá te cuento'.",
+                "Cárgalo un momento. Después las palabras."
+              ]
+            },
+            {
+              "goal": "Ponerle nombre a lo que pasó",
+              "variants": [
+                "Dile: 'te quitaron el carro y no te gustó. ¿Cierto?'.",
+                "Pregúntale: '¿lo estabas usando tú?'. Que lo diga él.",
+                "Dile: 'eso era tuyo. Está bien molestarse'."
+              ],
+              "fallbacks": [
+                "Si no habla, di tú lo que viste. Corto y sin juicio.",
+                "Dile: 'después lo resolvemos. Ahora estamos tú y yo'."
+              ]
+            },
+            {
+              "goal": "Cerrar sin rescatar de más",
+              "variants": [
+                "Dile: 'la próxima lo pedimos juntos. Hoy ya lo nombramos'.",
+                "Recupera tú el juguete sin pelear y entrégaselo: 'esto era tuyo'.",
+                "Dile: 'no te fuiste a esconder. Me lo contaste. Eso vale'."
+              ],
+              "fallbacks": [
+                "Si el juguete no vuelve: 'en casa te espera el tuyo'.",
+                "Cierra: 'te quedaste y aguantaste. Ya es algo'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Pedirlo con ayuda",
+          "steps": [
+            {
+              "goal": "Armar la frase",
+              "variants": [
+                "Dile al oído: 'la frase es: eso es mío, devuélvemelo'.",
+                "Ensáyala una vez contigo: dila tú y que la repita.",
+                "Pregúntale: '¿se lo pides tú o vamos juntos?'."
+              ],
+              "fallbacks": [
+                "Ve tú con él al lado: 'él lo estaba usando'.",
+                "Baja la meta: 'señala el juguete y di: mío'."
+              ]
+            },
+            {
+              "goal": "Su turno de pedir",
+              "variants": [
+                "Acompáñalo a dos pasos. Que hable él.",
+                "Si le tiembla la voz, no lo corrijas. Pedir temblando también es pedir.",
+                "Espera 5 segundos antes de reforzar tú. Dale su oportunidad."
+              ],
+              "fallbacks": [
+                "Refuerza sin reemplazar: 'ya te lo pidió. Devuélvelo'.",
+                "Dile: 'una vez más, más fuerte. Yo estoy acá'."
+              ]
+            },
+            {
+              "goal": "Mostrar que funcionó",
+              "variants": [
+                "Cuando vuelva el juguete: '¿viste? Lo pediste y volvió'.",
+                "Dile: 'usaste tu voz en vez de esconderte. Enorme'.",
+                "Si no lo devolvieron, resuélvelo tú con calma: 'tú hiciste tu parte'."
+              ],
+              "fallbacks": [
+                "Cierra: 'pedir ya te salió. La devolución es tema de ellos'.",
+                "Dile: 'mañana practicamos la frase en casa'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Defiende solo",
+          "steps": [
+            {
+              "goal": "Confiar de lejos",
+              "variants": [
+                "Cuando pase, no te muevas. Míralo y espera su reacción.",
+                "Si te busca con la mirada, dile la frase con los labios: 'es mío'.",
+                "Antes de que juegue, recuérdale: 'ya sabes qué decir si te quitan algo'."
+              ],
+              "fallbacks": [
+                "Acércate a mitad de camino, sin hablar.",
+                "Hazle la señal acordada: 'tú puedes'."
+              ]
+            },
+            {
+              "goal": "Dejar que negocie",
+              "variants": [
+                "Si discuten, no entres. Los turnos se arreglan entre ellos.",
+                "Escucha de lejos. Entra solo si hay manos encima.",
+                "Si te piden arbitrar, devuélvelo: '¿qué propones tú?'."
+              ],
+              "fallbacks": [
+                "Da una estructura y retírate: 'cinco minutos cada uno'.",
+                "Recuérdales la regla: 'el que lo tenía, lo termina'."
+              ]
+            },
+            {
+              "goal": "Nombrar el coraje",
+              "variants": [
+                "Después, a solas: 'defendiste lo tuyo sin pelear. Eso es carácter'.",
+                "Pregúntale: '¿cómo te salió la frase?'.",
+                "Dile: 'ya no necesitas que yo hable por ti. Fíjate'."
+              ],
+              "fallbacks": [
+                "Si no lo defendió: 'lo notaste y no explotaste. Mañana va la frase'.",
+                "Cierra corto: 'te vi manejarlo. Estoy contigo'."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teasing",
+      "title": "Se burlan",
+      "icon": "prohibit",
+      "levels": [
+        {
+          "label": "Refugio primero",
+          "steps": [
+            {
+              "goal": "Sacarlo del foco",
+              "variants": [
+                "Acércate y ponte entre {n} y las burlas. Tu cuerpo corta la escena.",
+                "Dile bajito: 'te vi. Vamos un momento a otro lado'.",
+                "No regañes a nadie todavía. Primero {n}, después el resto."
+              ],
+              "fallbacks": [
+                "Cárgalo o abrázalo. Primero el refugio.",
+                "Salgan del lugar: 'dos minutos afuera, tú y yo'."
+              ]
+            },
+            {
+              "goal": "Nombrar sin agrandar",
+              "variants": [
+                "Dile: 'se burlaron y dolió. No es tu culpa'.",
+                "Pregúntale: '¿qué fue lo que más te molestó?'. Escucha entero.",
+                "Dile: 'el que se burla queda mal él, no tú'."
+              ],
+              "fallbacks": [
+                "Si no quiere hablar, no insistas: 'cuando quieras, me cuentas'.",
+                "Quédate cerca en silencio. Compañía sin interrogatorio."
+              ]
+            },
+            {
+              "goal": "Cerrar con dignidad",
+              "variants": [
+                "Dile: 'viniste a contarme. Eso fue lo más valiente de hoy'.",
+                "Armen el plan corto: 'la próxima: los miras, dices basta y te vas'.",
+                "No lo obligues a volver al grupo hoy. Volver mañana también vale."
+              ],
+              "fallbacks": [
+                "Cierra sin discurso: un abrazo y algo rico.",
+                "Dile: 'mañana practicamos qué decir. Hoy descansamos'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Frase corta",
+          "steps": [
+            {
+              "goal": "Darle las palabras",
+              "variants": [
+                "Ensaya con él la frase: 'no me gusta, para'. Dos veces y ya.",
+                "Dile: 'no expliques ni ruegues. Corto: basta'.",
+                "Practiquen la cara firme frente a ti: sin sonrisa, ojos al frente."
+              ],
+              "fallbacks": [
+                "Baja a un gesto: mano en alto y media vuelta.",
+                "Dile: 'si no sale la voz, te vas. Irse firme también frena'."
+              ]
+            },
+            {
+              "goal": "Decirla en el momento",
+              "variants": [
+                "Quédate a la vista cuando se acerque al grupo. Solo presencia.",
+                "Si se burlan y te mira, asiente una vez. La frase es suya.",
+                "Aguanta 5 segundos antes de intervenir. Dale su turno."
+              ],
+              "fallbacks": [
+                "Acércate un paso. A veces tu sombra alcanza.",
+                "Di tú la frase una vez: 'dijo basta'. Y devuélvele la escena."
+              ]
+            },
+            {
+              "goal": "Mostrar el efecto",
+              "variants": [
+                "Después dile: 'dijiste basta y pararon. Tu voz funciona'.",
+                "Pregúntale: '¿viste la cara del otro cuando lo dijiste?'.",
+                "Dile: 'no devolviste la burla. Eso es más fuerte'."
+              ],
+              "fallbacks": [
+                "Si no pararon: 'la frase estuvo bien. Ellos estuvieron mal'.",
+                "Cierra: 'mañana la decimos más fuerte. Juntos si quieres'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Se protege solo",
+          "steps": [
+            {
+              "goal": "Confiar en su plan",
+              "variants": [
+                "Antes de ir, pregúntale: '¿qué haces hoy si se burlan?'. Que diga su plan.",
+                "Dile: 'yo ya no entro. Tú tienes las palabras'.",
+                "Recuérdale las salidas: decir basta, irse, buscar un adulto. En ese orden."
+              ],
+              "fallbacks": [
+                "Repasen la frase una vez en el camino.",
+                "Acuerden la señal de rescate por si la necesita."
+              ]
+            },
+            {
+              "goal": "Quedarse afuera",
+              "variants": [
+                "Mira de lejos sin cara de alarma. Tu calma le dice: puedes.",
+                "Si maneja la burla, no entres ni para felicitar. Después.",
+                "Interviene solo si la burla escala a empujones. Ahí sí, tú."
+              ],
+              "fallbacks": [
+                "Acércate al grupo sin hablar. Presencia y ya.",
+                "Sácalo con dignidad: '{n}, nos toca ir saliendo'."
+              ]
+            },
+            {
+              "goal": "Nombrar quién se volvió",
+              "variants": [
+                "A solas: 'te protegiste solo. Yo solo miré'.",
+                "Pregúntale: '¿qué funcionó mejor: la frase o irte?'.",
+                "Dile: 'el que sabe frenar burlas ayuda a otros a frenarlas'."
+              ],
+              "fallbacks": [
+                "Si no salió: 'hoy tocó difícil. El plan sigue siendo bueno'.",
+                "Cierra: 'me gustó cómo lo intentaste. Estoy contigo'."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "losing_game",
+      "title": "Pierde y se bloquea",
+      "icon": "trophy",
+      "levels": [
+        {
+          "label": "Parar y regular",
+          "steps": [
+            {
+              "goal": "El cuerpo primero",
+              "variants": [
+                "Ponte a su altura antes de hablar del juego. Primero él.",
+                "Dile: 'respira conmigo 3 veces. El juego espera'.",
+                "Sácalo un momento del tablero: 'agua y volvemos'."
+              ],
+              "fallbacks": [
+                "Cárgalo o abrázalo si está desbordado. Sin palabras aún.",
+                "Dile: 'paramos. No pasa nada por parar'."
+              ]
+            },
+            {
+              "goal": "Ponerle nombre",
+              "variants": [
+                "Dile: 'perder da rabia. A mí también me pasa'.",
+                "Pregúntale: '¿qué molesta más: perder o que te vieran?'.",
+                "Dile: 'el juego terminó. La rabia también va a terminar'."
+              ],
+              "fallbacks": [
+                "No expliques nada todavía. Silencio y compañía.",
+                "Dile: 'lo hablamos en casa. Ahora respiramos'."
+              ]
+            },
+            {
+              "goal": "Cerrar la escena",
+              "variants": [
+                "Dile: 'te calmaste rápido. Eso es ganar otra cosa'.",
+                "No lo obligues a felicitar todavía. Calmarse ya fue el logro.",
+                "Dile: 'mañana hay revancha. Hoy ya está'."
+              ],
+              "fallbacks": [
+                "Si explotó: 'la rabia ganó hoy. Mañana practicamos'.",
+                "Cierra sin sermón. A otra cosa."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Cerrar con ayuda",
+          "steps": [
+            {
+              "goal": "Preparar antes de jugar",
+              "variants": [
+                "Antes de jugar, di la regla: 'el que pierde dice bien jugado'.",
+                "Pregúntale: '¿qué vas a hacer si pierdes?'. Plan antes que rabia.",
+                "Juega tú primero y pierde a propósito. Modela el 'bien jugado'."
+              ],
+              "fallbacks": [
+                "Elijan un juego corto. Perder poco duele menos.",
+                "Dile: 'jugamos de a dos primero. El grupo después'."
+              ]
+            },
+            {
+              "goal": "El momento de perder",
+              "variants": [
+                "Si pierde, no digas nada por 5 segundos. Dale su espacio.",
+                "Recuérdale bajito: 'la regla. Tú puedes'.",
+                "Extiende tú la mano primero, hacia él: 'bien jugado tú también'."
+              ],
+              "fallbacks": [
+                "Baja la vara: 'con chocar la mano alcanza. Sin palabras'.",
+                "Dilo tú por los dos hoy: 'bien jugado'. Mañana él."
+              ]
+            },
+            {
+              "goal": "Nombrar el logro",
+              "variants": [
+                "Dile: 'perdiste y cerraste bien. Eso lo ven todos'.",
+                "Pregúntale: '¿qué se sintió decirlo?'.",
+                "Dile: 'contra la rabia ganaste tú'."
+              ],
+              "fallbacks": [
+                "Si no salió: 'la mano casi sale. Mañana sale entera'.",
+                "Cierra: 'querer jugar de nuevo es la mejor señal'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Cierra solo",
+          "steps": [
+            {
+              "goal": "Soltar el control",
+              "variants": [
+                "Déjalo jugar sin ti cerca. La regla ya la conoce.",
+                "Antes, pregúntale: '¿te acuerdas del plan si pierdes?'. Y suéltalo.",
+                "No mires el final del juego con cara de alerta. Normalidad."
+              ],
+              "fallbacks": [
+                "Mira de lejos, listo pero quieto.",
+                "Recuérdale la señal de calma que ya conocen."
+              ]
+            },
+            {
+              "goal": "Aguantar el resultado",
+              "variants": [
+                "Si pierde, cuenta hasta 5 antes de acercarte. Suele resolverlo solo.",
+                "Si cierra bien, no lo celebres delante de todos. Guárdalo.",
+                "Si se bloquea, espera su mirada antes de entrar."
+              ],
+              "fallbacks": [
+                "Acércate lento y ofrece salida: '¿otra partida o pausa?'.",
+                "Sácalo sin drama: 'vamos por agua'."
+              ]
+            },
+            {
+              "goal": "Que sea su hábito",
+              "variants": [
+                "A solas: 'perdiste y seguiste jugando. Ya es tuyo'.",
+                "Pregúntale: '¿a quién le ganaste hoy aunque perdiste?'. Pista: a la rabia.",
+                "Dile: 'contigo dan ganas de jugar, ganes o pierdas'."
+              ],
+              "fallbacks": [
+                "Si explotó: 'llevabas tres cierres buenos. Uno malo no borra tres'.",
+                "Cierra: 'revancha mañana. Yo aviso'."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "school_start",
+      "title": "Primer día de clases",
+      "icon": "student",
+      "levels": [
+        {
+          "label": "Conocer el terreno",
+          "steps": [
+            {
+              "goal": "Anticipar en casa",
+              "variants": [
+                "Días antes, pasen por el colegio: 'esta es tu puerta. Solo mirar'.",
+                "Cuéntale el orden del día: 'entras, cuelgas la mochila, juegas'.",
+                "Preparen juntos la mochila. Lo que él arma asusta menos."
+              ],
+              "fallbacks": [
+                "Miren fotos del colegio o de su profesora, si tienes.",
+                "Dile: 'el primer día voy contigo hasta la puerta. Prometido'."
+              ]
+            },
+            {
+              "goal": "Llegar con margen",
+              "variants": [
+                "Lleguen temprano, antes del ruido. El patio vacío asusta menos.",
+                "Busquen juntos su aula y su sitio: 'este es el tuyo'.",
+                "Señálale a un compañero conocido si hay: 'mira, vino Marco'."
+              ],
+              "fallbacks": [
+                "Quédense en la puerta del aula un momento. Se entra después.",
+                "Den una vuelta al patio de la mano y vuelvan."
+              ]
+            },
+            {
+              "goal": "Despedida corta y clara",
+              "variants": [
+                "Dile exactamente cuándo vuelves: 'después del recreo grande, acá'.",
+                "Despedida corta: beso, la frase de siempre, y sales sin mirar atrás.",
+                "Nada de escaparte sin avisar. Eso rompe la confianza."
+              ],
+              "fallbacks": [
+                "Si llora, entrégalo a la profesora con calma. Ella sabe.",
+                "Déjale algo tuyo pequeño: 'me lo cuidas hasta la salida'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Entrar con ayuda",
+          "steps": [
+            {
+              "goal": "Preparar el saludo",
+              "variants": [
+                "En la puerta, dile: 'saludamos a la profesora juntos y entras'.",
+                "Recuérdale el plan: 'mochila, saludo y tu sitio. Tres pasos'.",
+                "Pregúntale: '¿qué le dices hoy a la profesora? Un hola alcanza'."
+              ],
+              "fallbacks": [
+                "Saluda tú y preséntalo: 'él es {n}'. Sin pedirle nada.",
+                "Baja la meta: 'hoy saludas con la mano'."
+              ]
+            },
+            {
+              "goal": "El umbral",
+              "variants": [
+                "Acompáñalo hasta la puerta del aula, no hasta su sitio.",
+                "Si se prende de tu mano, agáchate: 'dos pasos más y es tu turno'.",
+                "Entrega la mochila a su mano, no a la profesora. El que entra es él."
+              ],
+              "fallbacks": [
+                "Entra un minuto, déjalo instalado y sal corto: 'nos vemos a la salida'.",
+                "Pasa su mano a la mano de la profesora, no al vacío."
+              ]
+            },
+            {
+              "goal": "Nombrar el logro a la salida",
+              "variants": [
+                "A la salida, primero: 'entraste tú. Te vi'. Después las preguntas.",
+                "Pregúntale: '¿qué fue lo mejor de hoy?'. Una cosa alcanza.",
+                "Cuéntalo en casa delante de él: 'hoy entró y saludó'."
+              ],
+              "fallbacks": [
+                "Si lloró al entrar: 'llorando y todo, entraste. Doble mérito'.",
+                "Cierra: 'mañana repetimos los tres pasos. Ya los sabes'."
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Entra solo",
+          "steps": [
+            {
+              "goal": "Soltar en la reja",
+              "variants": [
+                "Despídete en la reja, no en el aula: 'desde acá vas tú'.",
+                "Dile: 'tú conoces el camino. Yo te miro hasta la esquina'.",
+                "Pregúntale: '¿me saludas desde la puerta cuando llegues?'. Rito de grandes."
+              ],
+              "fallbacks": [
+                "Acompáñalo hasta la mitad del patio y suelta.",
+                "Vuelve al nivel de ayer sin drama: puerta del aula."
+              ]
+            },
+            {
+              "goal": "No estirar la despedida",
+              "variants": [
+                "Una frase y ya. Las despedidas largas agrandan el miedo.",
+                "Si duda, no lo llames de vuelta. Espera quieto.",
+                "Vete cuando entre, no antes. Que gire y te vea tranquilo."
+              ],
+              "fallbacks": [
+                "Quédate quieto hasta que cruce. Sin gestos de apuro.",
+                "Salúdalo una vez a lo lejos y date la vuelta."
+              ]
+            },
+            {
+              "goal": "Que la escuela sea suya",
+              "variants": [
+                "A la salida pregúntale: '¿con quién jugaste? ¿Qué aprendiste?'.",
+                "Deja que cuente él su día, en su orden, sin corregir.",
+                "Dile: 'entras solo hace una semana. ¿Te diste cuenta?'."
+              ],
+              "fallbacks": [
+                "Si un día recae, no lo marques: 'mañana de nuevo. Hay días de todo'.",
+                "Cierra: 'tu colegio, tu camino. Yo solo aplaudo'."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Otra situación",
+      "icon": "dots-three-circle",
+      "levels": [
+        {
+          "label": "Paso a paso",
+          "steps": [
+            {
+              "goal": "Acercarse y calmar",
+              "variants": [
+                "Acércate a {n} y ponte a su altura. Sin apuro.",
+                "Primero cálmate tú: una respiración larga. Después ve.",
+                "Acércate sin público: llévalo un paso aparte.",
+                "Ponte a su lado y espera 5 segundos antes de hablar."
+              ],
+              "fallbacks": [
+                "Salgan un momento del lugar. Dos minutos afuera.",
+                "Baja la voz en vez de subirla. Que se acerque a escucharte.",
+                "Ofrece agua o un abrazo. El cuerpo primero."
+              ]
+            },
+            {
+              "goal": "Una sola consigna",
+              "variants": [
+                "Dile qué hacer, en una frase corta. Una sola cosa.",
+                "Dile qué SÍ hacer, no qué no hacer.",
+                "Dale dos opciones: '¿esto o esto?'. Elegir calma.",
+                "Pídele lo más pequeño posible. Un primer paso, nada más."
+              ],
+              "fallbacks": [
+                "Hazlo tú primero. Que {n} te copie.",
+                "Repite la misma frase, más despacio. Sin agregar nada.",
+                "Muéstraselo con gestos, sin palabras."
+              ]
+            },
+            {
+              "goal": "Dar tiempo",
+              "variants": [
+                "Espera 5 segundos. Dale el tiempo de intentarlo.",
+                "Muérdete la lengua: no repitas la consigna. Espera.",
+                "Mira para otro lado un momento. Menos presión, más acción.",
+                "Si lo intenta aunque salga mal, nómbralo: 'lo estás intentando'."
+              ],
+              "fallbacks": [
+                "Baja la vara: 'hoy con la mitad alcanza'.",
+                "Pártelo en dos: 'primero esto, después vemos'.",
+                "Cierra en buenos términos: 'lo probamos de nuevo más tarde'."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "tips": [
+    "No digas 'es tímido' delante de él. Di: 'necesita un momento'.",
+    "No respondas por {n} cuando le preguntan algo. Aguanta el silencio.",
+    "Antes de una situación difícil, cuéntale qué va a pasar. Lo previsible asusta menos.",
+    "Festeja el intento, no solo el logro. Intentar ya es valentía.",
+    "No lo compares con hermanos ni amigos. Su ritmo es el suyo.",
+    "Las salidas cortas y buenas valen más que las largas y forzadas.",
+    "Si tú saludas a todos, {n} lo ve. Eres su mejor ejemplo.",
+    "Después de un logro, no lo hagas contar la hazaña delante de todos.",
+    "Un 'te vi' bajito vale más que un aplauso fuerte.",
+    "La vergüenza baja cuando el cuerpo se suelta: correr y saltar antes de entrar."
+  ],
+  "missions": {
+    "greet": [
+      "Esta semana: que {n} entre contigo a un lugar con gente y mire, una vez.",
+      "Esta semana: un saludo con la mano o una sonrisa, una vez.",
+      "Esta semana: que {n} salude él primero, aunque sea bajito, una vez."
+    ],
+    "fear": [
+      "Esta semana: respirar juntos 3 veces cuando algo lo asuste, una vez.",
+      "Esta semana: mirar juntos, de cerca, algo que le dé un poco de miedo.",
+      "Esta semana: que {n} dé un paso solo hacia algo que le costaba."
+    ],
+    "limits": [
+      "Esta semana: decir 'para' juntos, una vez que haga falta.",
+      "Esta semana: que {n} diga 'basta' o 'no me gusta' con su voz, una vez.",
+      "Esta semana: que {n} sostenga un límite solo, contigo lejos."
+    ],
+    "share": [
+      "Esta semana: prestar un juguete 2 minutos contigo de garante, una vez.",
+      "Esta semana: que {n} elija qué prestar y espere que vuelva, una vez.",
+      "Esta semana: que {n} ofrezca algo suyo sin que se lo pidan, una vez."
+    ],
+    "ask_help": [
+      "Esta semana: que {n} señale qué no le sale y acepte ayuda, una vez.",
+      "Esta semana: que {n} diga 'ayúdame' o '¿me ayudas?', una vez.",
+      "Esta semana: que {n} pida ayuda a alguien que no seas tú, una vez."
+    ],
+    "join_play": [
+      "Esta semana: mirar juntos un juego de otros niños, de cerca, una vez.",
+      "Esta semana: entrar a un juego con tu ayuda, una vez.",
+      "Esta semana: que {n} se sume a un juego solo, una vez."
+    ],
+    "order_shop": [
+      "Esta semana: que {n} mire cómo pides tú y te cuente qué dijiste.",
+      "Esta semana: que {n} diga su parte del pedido en el mostrador, una vez.",
+      "Esta semana: un pedido entero hecho por {n}, contigo afuera."
+    ],
+    "party": [
+      "Si hay una reunión o fiesta: llegar temprano y encontrar su base, juntos.",
+      "Si hay una reunión: que {n} salude o se acerque a un niño, una vez.",
+      "Si hay una reunión: que {n} circule solo y tú te quedes con los adultos."
+    ],
+    "new_kid": [
+      "Esta semana: que {n} mire a otro niño jugar, de cerca, una vez.",
+      "Esta semana: que {n} haga un gesto de saludo a un niño nuevo, una vez.",
+      "Esta semana: que {n} diga hola solo a un niño nuevo, una vez."
+    ],
+    "speak_class": [
+      "Esta semana: que {n} te cuente una cosa que escuchó en clase.",
+      "Esta semana: que {n} levante la mano o diga una palabra en clase, una vez.",
+      "Esta semana: que {n} haga una pregunta solo en clase, una vez."
+    ],
+    "perform": [
+      "Esta semana: que {n} mire una actuación 10 segundos, una vez.",
+      "Esta semana: que {n} diga una palabra en escena contigo, una vez.",
+      "Esta semana: que {n} diga una frase solo al frente, una vez."
+    ],
+    "guests_home": [
+      "Esta semana: que {n} se asome 5 segundos cuando haya visitas, una vez.",
+      "Esta semana: que {n} haga una seña de saludo contigo, una vez.",
+      "Esta semana: que {n} salga y salude solo, una vez."
+    ],
+    "doctor_visit": [
+      "Esta semana: que {n} esté en la consulta 10 segundos, una vez.",
+      "Esta semana: que {n} salude o muestre la mano contigo, una vez.",
+      "Esta semana: que {n} responda una pregunta solo, una vez."
+    ],
+    "phone_call": [
+      "Esta semana: que {n} oiga la llamada 10 segundos, una vez.",
+      "Esta semana: que {n} diga hola contigo, una vez.",
+      "Esta semana: que {n} diga una frase solo, una vez."
+    ],
+    "taken_toy": [
+      "Esta semana: que {n} pare y mire cuando le quiten algo, una vez.",
+      "Esta semana: que {n} pida 'por favor' contigo, una vez.",
+      "Esta semana: que {n} pida que le devuelvan algo solo, una vez."
+    ],
+    "teasing": [
+      "Esta semana: que {n} pare y respire 3 veces, una vez.",
+      "Esta semana: que {n} diga 'no me gusta' contigo, una vez.",
+      "Esta semana: que {n} ponga un límite solo, una vez."
+    ],
+    "losing_game": [
+      "Esta semana: que {n} pare y respire al perder, una vez.",
+      "Esta semana: que {n} cierre con una palma contigo, una vez.",
+      "Esta semana: que {n} diga 'bien jugado' solo, una vez."
+    ],
+    "school_start": [
+      "Esta semana: que {n} llegue y mire el aula 10 segundos, una vez.",
+      "Esta semana: que {n} salude a la profesora contigo, una vez.",
+      "Esta semana: que {n} entre al aula solo, una vez."
+    ],
+    "other": [
+      "Esta semana: elige un momento difícil y prueba la guía de Vinko, una vez."
+    ]
+  },
+  "practices": {
+    "greet": [
+      "Jueguen a saludarse con voces raras: robot, gigante, ratón.",
+      "Practiquen el 'hola' con los peluches: {n} los presenta a todos."
+    ],
+    "fear": [
+      "Jueguen al 'monstruo lento': lo miran, respiran, se acercan un paso.",
+      "Dibujen lo que da miedo y pónganle un nombre gracioso."
+    ],
+    "limits": [
+      "Practiquen decir 'basta' frente al espejo, cada vez más fuerte.",
+      "Jueguen a que un peluche molesta y {n} le pone el límite."
+    ],
+    "share": [
+      "Jueguen a prestarse cosas por 1 minuto con reloj: siempre vuelven.",
+      "Armen la caja de guardados: lo que no se presta se guarda antes."
+    ],
+    "ask_help": [
+      "Jueguen al 'trabado': tú te trabas con algo y pides ayuda exagerado.",
+      "Inventen la señal secreta de 'necesito ayuda' y úsenla en casa."
+    ],
+    "join_play": [
+      "Ensayen la frase '¿puedo jugar?' con muñecos que dicen que sí.",
+      "Jueguen a entrar a la ronda: uno juega, el otro pide sumarse."
+    ],
+    "order_shop": [
+      "Armen una tiendita en casa: {n} pide, tú vendes. Después al revés.",
+      "Ensayen: saludo, pido, gracias. Tres pasos, como un juego de memoria."
+    ],
+    "party": [
+      "Jueguen a la fiesta de peluches: {n} llega, saluda y elige su base.",
+      "Antes de una fiesta, miren fotos de la última: qué salió bien."
+    ],
+    "new_kid": [
+      "Jueguen al parque en casa: los muñecos se encuentran y se saludan.",
+      "Hagan turnos: tú saludas raro, {n} responde con un gesto."
+    ],
+    "speak_class": [
+      "Armen una clase en casa: {n} alumno, tú de profesora. Después cambien.",
+      "Jueguen a preguntas rápidas: uno pregunta, el otro responde."
+    ],
+    "perform": [
+      "Armen un mini escenario en casa: {n} dice una palabra y tú aplaudes.",
+      "Juego de eco: tú dices una palabra y {n} la repite frente a ti."
+    ],
+    "guests_home": [
+      "Jueguen a la puerta: tocas, {n} abre y hace una seña.",
+      "Jueguen a las visitas: tú llegas, {n} saluda y se retira."
+    ],
+    "doctor_visit": [
+      "Jueguen a la consulta: tú eres el médico, {n} muestra la mano.",
+      "Cambio de roles: {n} es el médico y te pide decir tu nombre."
+    ],
+    "phone_call": [
+      "Simulen una llamada: tú llamas y {n} dice hola.",
+      "Videollamada de juguete: {n} muestra un objeto y dice una frase."
+    ],
+    "taken_toy": [
+      "Jueguen a los turnos: uno toma algo y el otro pide 'por favor'.",
+      "Juego de roles: tú tomas un juguete y {n} lo pide de vuelta."
+    ],
+    "teasing": [
+      "Juego del límite: tú haces una broma suave y {n} dice 'no'.",
+      "Semáforo: rojo es parar, {n} levanta la mano y dice 'no'."
+    ],
+    "losing_game": [
+      "Partida rápida: al perder, {n} choca la palma y dice 'bien'.",
+      "Carrera corta: el que pierde cierra con 'bien jugado'."
+    ],
+    "school_start": [
+      "Simulen la entrada: {n} cruza una puerta y saluda.",
+      "Jueguen al aula: {n} entra, dice hola y se sienta."
+    ],
+    "other": [
+      "Elijan juntos una cosa difícil de la semana y ensáyenla en casa, jugando.",
+      "Jueguen a 'un paso por vez': cualquier tarea, partida en pasos pequeños."
+    ]
+  }
+}
